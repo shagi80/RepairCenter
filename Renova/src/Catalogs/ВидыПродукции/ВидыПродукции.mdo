@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="503bdd9c-1282-4642-ab3f-f5821e9465a6">
+  <producedTypes>
+    <objectType typeId="4d7c38c8-d706-46d3-99a5-247a2896e2e6" valueTypeId="5a9fe7c1-69b4-4977-bca9-8cc9fd2cb3ac"/>
+    <refType typeId="a7ad33c4-6ad0-4a9e-884f-c353d00b6333" valueTypeId="80477879-7694-45a9-9091-2f5a8273a5a5"/>
+    <selectionType typeId="561102cf-e713-43b0-b9c3-c16682a5403b" valueTypeId="4fdab2e6-9963-4ed9-b7a7-dcda788b0196"/>
+    <listType typeId="e4522de4-d4bf-4105-a2ab-b56f2b611377" valueTypeId="6b5a994f-2847-4e76-a690-c579074a485b"/>
+    <managerType typeId="4bf12d5c-0581-4f2e-9ac4-80e9f9f6547a" valueTypeId="79dab3ee-bbd6-4ba7-ac96-be4919db7d7e"/>
+  </producedTypes>
+  <name>ВидыПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПродукции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыПродукции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид продукции</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="31ddea48-1419-4fa8-a935-131c4f0b7394">
+      <name>Общий</name>
+      <description>Общий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыПродукции.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыПродукции.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="57d0d7b5-f71e-4da9-b840-7e67a6fccd6f">
+    <name>КраткоеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d25311b7-409f-4fdb-b4ed-7e44b487c4b6">
+    <name>IDСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID сайта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="db0261da-9167-4b46-a7ee-5c62ce4811c6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08e2858b-4ef5-440a-9dc1-e1c9bb83dab4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d31994f0-02c6-4aec-8367-da5d87d4f65c">
+    <name>КодыНеисправностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды неисправностей</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ВидыПродукции</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="66135332-1db8-4bba-a455-80f7c2935fa7">
+    <name>МоделиПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модели продукции</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ВидыПродукции</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

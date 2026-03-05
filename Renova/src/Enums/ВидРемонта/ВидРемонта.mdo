@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a59803f6-c5b7-4e04-9cb3-9d2ee9b271f1">
+  <producedTypes>
+    <refType typeId="c35bea69-782c-42bf-b83b-48ce2918a181" valueTypeId="66571b1e-0fa2-4bd4-a3fc-6694256bbde4"/>
+    <listType typeId="3690449b-fba7-43c0-b06b-29f5a9d8e01e" valueTypeId="da08900f-dc8c-491b-b9f2-4e0d472799e2"/>
+    <managerType typeId="5a24adc3-68aa-4064-b08d-269e56856450" valueTypeId="278a95ee-bbe8-4ca3-a4dc-6c0eafae604e"/>
+  </producedTypes>
+  <name>ВидРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид ремонта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed06b331-e343-46c5-ad0a-853164349065">
+    <name>Предторговый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предторговый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99dc5226-166f-41f5-ac81-fab50c527b60">
+    <name>Гарантийный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

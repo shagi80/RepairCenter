@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dee0ff5b-1816-4f3e-8caf-0940103b600c">
+  <producedTypes>
+    <selectionType typeId="e242da18-7007-4a69-b4a5-684a15684c6c" valueTypeId="885659cc-6a77-4deb-bca9-4964ef28394b"/>
+    <listType typeId="73bd59d0-22d3-4634-87c5-6f00f167a48e" valueTypeId="6615fe14-648e-49a5-901c-3fd39c50138e"/>
+    <managerType typeId="a975ebe5-b1db-4967-88aa-997ac79ef89c" valueTypeId="8dbaa68b-1572-48dd-b828-0859c29f4268"/>
+    <recordSetType typeId="b8666b99-97b2-4b95-8168-d53042e90578" valueTypeId="9708815d-caf1-485e-ac89-6cf97712256f"/>
+    <recordKeyType typeId="4ee44281-01ae-46ea-9740-bbc0b3d8fc4f" valueTypeId="08207678-ebb0-4212-8b26-338ecb1f6031"/>
+    <recordType typeId="89eeac67-f451-48fe-9446-9032207e0357" valueTypeId="ff4314f7-8f94-42fd-bea3-9fc7238a74c5"/>
+  </producedTypes>
+  <name>ФабрикиИСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фабрики и смены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d19e83d8-de7b-4345-8a13-3513f5976018">
+    <name>СуммаИтого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма итого</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6c0e63a0-42d4-4ffe-86cb-4877a5771b49">
+    <name>СуммаЗаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за работы</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c8a4650a-ad60-48a6-a8ce-32c2ffb1721d">
+    <name>СуммаЗаДетали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за детали</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="1063dd4a-4958-482f-be26-84b900f8d741">
+    <name>СуммаЗаВыезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за выезд</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="72ceec45-73ff-4c09-89fc-f15ba63380fd">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d9498974-9027-4b2b-955b-dca3afdae5b6">
+    <name>Фабрика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фабрика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФабрикиИСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a770979f-258f-42aa-a893-80bec3abca7c">
+    <name>Смена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФабрикиИСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ed02fb46-ceba-4244-a20d-3056feb26457">
+    <name>ДатаПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата производства</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
