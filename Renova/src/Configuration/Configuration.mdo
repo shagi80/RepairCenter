@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ce07791-242b-474d-9d34-b1c993e816ef">
+  <name>RenovaTech</name>
+  <synonym>
+    <key>ru</key>
+    <value>Renova tech</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6a2ab60c-d4c0-470c-8035-3fdbbdf3aa9d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7ec494d3-7a08-48ec-a4ae-630cc53e90bc"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1fd3463b-d5d3-4709-83ca-d66f7b6cd7be"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="be9b9edd-823c-4dd2-84f9-c70a3185072d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b893aebe-6e96-4490-9bda-beb9a153b9b1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="523bcdd1-c05d-4a3d-9039-aab759c99fcb"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2f90ff95-8d6c-4e9f-bc42-c1bdbff14d37"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.СтильСиний</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="9e481b12-1888-4e0c-bd53-652864e33a13">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.ПервичнаяЗагрузкаДанных</subsystems>
+  <subsystems>Subsystem.Аналитика</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <styles>Style.СтильСиний</styles>
+  <commonModules>CommonModule.РаботаСCSVСервер</commonModules>
+  <commonModules>CommonModule.СоответсвияСервер</commonModules>
+  <commonModules>CommonModule.РаботаСоСтрокойСервер</commonModules>
+  <commonModules>CommonModule.РаботаСФайломКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСФормамиСервер</commonModules>
+  <commonModules>CommonModule.РаботаСДиаграммами</commonModules>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <commonForms>CommonForm.ФормаВыбораОтчета</commonForms>
+  <catalogs>Catalog.РегионыСервиса</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактыКонтрагентов</catalogs>
+  <catalogs>Catalog.МоделиПродукции</catalogs>
+  <catalogs>Catalog.ВидыПродукции</catalogs>
+  <catalogs>Catalog.ГруппыМоделей</catalogs>
+  <catalogs>Catalog.ФабрикиИСмены</catalogs>
+  <catalogs>Catalog.КодыНеисправностей</catalogs>
+  <documents>Document.Ремонт</documents>
+  <documents>Document.ОтчетОРемонтах</documents>
+  <enums>Enum.СтатусыОтчета</enums>
+  <enums>Enum.ВидРемонта</enums>
+  <enums>Enum.ВидКлиента</enums>
+  <enums>Enum.КатегорииНоменклатуры</enums>
+  <reports>Report.АнализРемонтов</reports>
+  <reports>Report.Отчет</reports>
+  <reports>Report.АнализРемонтовОбщий</reports>
+  <reports>Report.ИтогиПоВидамПродукции</reports>
+  <reports>Report.ИтогиПоВидамПродукцииПоСрокуСлужбы</reports>
+  <reports>Report.ИтогиПоВидамЗаводскойПродукции</reports>
+  <reports>Report.ИтогиПоГруппамМоделей</reports>
+  <reports>Report.ИтогиПоГруппамМоделейПоСрокуСлужбы</reports>
+  <reports>Report.ИтогиПоГруппамМоделейИКодовНеисправности</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаВидовПродукции</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДокументаОтчетОРемонтах</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДокументаРемонт</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКодовНеисправности</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаМоделейПродукции</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаРегионовСервиса</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКонтактовКонтрагентов</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаСервисныхЦентров</dataProcessors>
+  <dataProcessors>DataProcessor.ОтчетыСЦ</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.РемонтыИПродукция</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КонтрагентыИДата</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ФабрикиИСмены</accumulationRegisters>
+</mdclass:Configuration>

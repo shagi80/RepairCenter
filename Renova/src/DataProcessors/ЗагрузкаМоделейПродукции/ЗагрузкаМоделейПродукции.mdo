@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203427d8-89a9-4e7b-97d6-68dd731392ee">
+  <producedTypes>
+    <objectType typeId="aa7ff73c-4cbc-41ad-afe8-8cc9bf89f09b" valueTypeId="119dd859-a255-4eee-96db-d876aba2be0f"/>
+    <managerType typeId="72f9c041-5186-4a20-829c-4d0a5c1a7264" valueTypeId="29414b2b-b64a-42db-b132-530e5112c0f1"/>
+  </producedTypes>
+  <name>ЗагрузкаМоделейПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка моделей продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаМоделейПродукции.Form.Форма</defaultForm>
+  <attributes uuid="f8fae6a8-3cc7-4a26-8ff3-cf9bb7ff8325">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3d6c7d98-93b2-489b-8ebe-9662c3b406a8">
+    <name>ТаблицаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица загрузки</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="51cd9d6b-56d5-4922-853c-636c1b54f60f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

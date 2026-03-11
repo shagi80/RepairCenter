@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="291b1f49-dc3d-4f35-99ca-1ad36eebfdac">
+  <producedTypes>
+    <objectType typeId="8555b6ec-77d2-4a96-b1b1-438d4d4e0593" valueTypeId="2ab97953-b84b-4450-9517-17ada242997f"/>
+    <refType typeId="767c6ee6-5ded-4ca8-985d-1348c18ecde5" valueTypeId="13912396-59ba-4e84-a98d-bf6682e55fdc"/>
+    <selectionType typeId="ee82609d-9659-4194-9432-697e6b9bdb10" valueTypeId="3b56a5d0-caa3-407b-8dfc-fe54306cd352"/>
+    <listType typeId="77780e15-2399-4a07-a5ef-1a91a9c5a309" valueTypeId="c976a8bc-1f32-480f-bc63-805eb0fdd4da"/>
+    <managerType typeId="5e3b6336-7161-4333-a485-47040b8daa0e" valueTypeId="6ee8c5b5-dac4-4435-840b-cf218f2696ff"/>
+  </producedTypes>
+  <name>ОтчетОРемонтах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о ремонтах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтчетОРемонтах.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отчет о ремонтах</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Отчеты о ремонтах</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОтчетОРемонтах.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОтчетОРемонтах.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.РемонтыИПродукция</registerRecords>
+  <registerRecords>AccumulationRegister.ФабрикиИСмены</registerRecords>
+  <registerRecords>AccumulationRegister.КонтрагентыИДата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5a08fa8e-b9a4-4240-91c5-a97e3ece52d7">
+    <name>IDСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID сайта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a1a010d-b6ef-4e0c-baac-f378b8f843c2">
+    <name>ОтчетныйПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетный период</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc259327-5927-45f8-bd2e-057f48083ffc">
+    <name>СервисныйЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисный центр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3fd0832-03a1-448f-add8-63b8c40fc782">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыОтчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fd5639a-eb21-45e4-9f67-5d5a04893c61">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b024a3b5-7d65-4a7a-a54f-a43dcd81da94">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="349559ec-9c76-47be-9664-682a02e53f4e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a87ea5f4-02bf-46e5-83d0-29bdc878669a">
+    <producedTypes>
+      <objectType typeId="6821be8c-684e-4584-8557-63e11b4729fd" valueTypeId="f77e6999-0029-41ff-bd2a-601454931b4f"/>
+      <rowType typeId="e7b65003-a835-40a8-a764-e6f9b3e8304d" valueTypeId="782646f7-9ec8-4df7-9ac1-8eed39cd6d08"/>
+    </producedTypes>
+    <name>Ремонты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонты</value>
+    </synonym>
+    <attributes uuid="f3738b3d-032b-46ad-8871-7030087e096a">
+      <name>Ремонт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонт</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Ремонт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

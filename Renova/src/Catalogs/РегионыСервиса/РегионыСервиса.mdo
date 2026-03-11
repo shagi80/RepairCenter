@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05929d9b-3158-40e8-8a06-e3778bb1f7b3">
+  <producedTypes>
+    <objectType typeId="57ecce85-46d6-45bc-8953-b8178ac2ad3e" valueTypeId="883d97fb-a925-47ce-869e-65917e8ac44c"/>
+    <refType typeId="cd82a155-b45d-452e-8bfa-509d4e0e95e6" valueTypeId="b4a83b25-73d1-4610-af47-b845742c4f2f"/>
+    <selectionType typeId="adaf10e5-3134-4f59-9325-e0f635c03ddb" valueTypeId="73109c06-d37e-4710-ad58-04f3cd0fff22"/>
+    <listType typeId="b44c9887-38f6-4007-aae1-60fcd5d5d585" valueTypeId="5c84248f-e02d-46e1-b01e-005e09ffc1cb"/>
+    <managerType typeId="78ccab0c-bf66-4588-9ae3-a518ecf93d91" valueTypeId="391df4e0-ab84-400b-ac49-7bc0b4df9735"/>
+  </producedTypes>
+  <name>РегионыСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регионы сервиса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РегионыСервиса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РегионыСервиса.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Регион сервиса</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Регионы сервиса</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РегионыСервиса.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2624fda5-c900-435f-8e91-415d76b903da">
+    <name>IDСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID сайта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="010983ce-9014-46b5-a3e9-fd62e4611134">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

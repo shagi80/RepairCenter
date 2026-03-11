@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6f3843f-028c-46fd-9628-5133d2262f88">
+  <producedTypes>
+    <selectionType typeId="9614595a-9195-4b22-af2b-4a0e7736c201" valueTypeId="734f8e5e-a151-4471-b5ba-14ea9eba098e"/>
+    <listType typeId="b3172534-daa2-46f5-aa18-8359a9eebf23" valueTypeId="ca1aa838-6e52-4edb-94c4-b3d321f4a195"/>
+    <managerType typeId="6afc939d-e86c-47ba-a164-3af31df115b8" valueTypeId="58c927a5-36d0-46e4-a4ac-aafc54cf5a82"/>
+    <recordSetType typeId="efce159a-9f69-4bfe-999c-d70c53ff427e" valueTypeId="b8a3c212-d413-44c7-972a-2824e4f5f971"/>
+    <recordKeyType typeId="d558e3c1-04b6-4bdd-a209-66a9ae453411" valueTypeId="515081fd-2368-424b-a351-bee442c9496c"/>
+    <recordType typeId="b4725324-03d7-441d-8b6d-e8778f1c1755" valueTypeId="790bc072-b1f6-420e-a48a-35082edbea76"/>
+  </producedTypes>
+  <name>КонтрагентыИДата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты и дата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e02b8d38-7bf6-4bfe-ba7e-6e0eb318440b">
+    <name>СуммаИтого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма итого</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8438bc97-872d-4b9b-afe4-85204ad1b85e">
+    <name>СуммаЗаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за работы</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="78a8bc4b-c8c8-4758-a509-9c55277628c9">
+    <name>СуммаЗаДетали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за детали</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b6a2efb0-e144-41e2-9620-fd901dac4cd3">
+    <name>СуммаЗаВыезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма за выезд</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d9038cc1-2383-4548-b3ea-3be5b816fcf2">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="49b67309-fbe2-4bb9-98b4-5e8a773aba6f">
+    <name>СервисныйЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисный центр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7eee726f-aef4-4537-90fa-8e9fd9177a1c">
+    <name>ДатаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата покупки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4fa665e9-d9da-4838-ad5a-aa3d04b1f1f0">
+    <name>СрокВЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок в эксплуатации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

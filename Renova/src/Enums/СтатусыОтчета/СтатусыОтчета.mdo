@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8f55ed1-3550-4964-90a3-75ca7661ec44">
+  <producedTypes>
+    <refType typeId="a0724a69-33e3-4972-b271-c8e34b236b56" valueTypeId="fdc5954d-b058-4ad2-80c1-08ef27c8582a"/>
+    <listType typeId="f14df1ea-4d46-4122-b307-fd56bed75112" valueTypeId="9a28a9f4-54fd-468a-8ac3-a22765bcbfd6"/>
+    <managerType typeId="011fe317-6df7-4a0c-b16e-51a91d674746" valueTypeId="4832115b-ba07-449b-aedb-333cf253dfc9"/>
+  </producedTypes>
+  <name>СтатусыОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e6f8bfc-9565-4872-936a-fa765c02e3fb">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fb6a911-aff4-4a42-b44b-88a564482ac6">
+    <name>ОтправленНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен на проверку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20e57034-f5df-4604-9ba0-d284fe4c6a46">
+    <name>НаДоработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На доработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b039865-324a-4a34-99e3-bc6ceeb51476">
+    <name>ОтправленПовторно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен повторно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04629621-3952-4c45-a0f0-4bb06d3f55ca">
+    <name>ПринятНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят на проверку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b31e4d7d-98a6-4104-a3a0-34a95960460e">
+    <name>ПроверенМенеджером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверен менеджером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f9845a3-d049-44ee-8f8d-8b5cbb3b47cf">
+    <name>ПринятУтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят (Утвержден)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a19d4adf-0caa-408a-915b-84b687cf7401">
+    <name>Оплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

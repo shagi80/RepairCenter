@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fdb2ccf-63af-4933-ae07-91458619d7d2">
+  <name>СервисныеЦентры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные центры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.РегионыСервиса</content>
+  <content>Catalog.КонтактыКонтрагентов</content>
+  <content>Style.СтильСиний</content>
+  <parentSubsystem>Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>

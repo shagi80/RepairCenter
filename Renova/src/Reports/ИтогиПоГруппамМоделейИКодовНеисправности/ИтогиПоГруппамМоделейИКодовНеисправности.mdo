@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e40544f-7600-4755-93db-bb04c45accf5">
+  <producedTypes>
+    <objectType typeId="87ac0b1a-934d-4d41-8b38-636c2eb12f33" valueTypeId="2ef47099-54f6-4904-bfb9-eff60578a34f"/>
+    <managerType typeId="16cffa68-2836-44cc-b7a1-5e4c0c369162" valueTypeId="d9b9b970-f221-4892-a73e-9fb9217ea368"/>
+  </producedTypes>
+  <name>ИтогиПоГруппамМоделейИКодовНеисправности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по группам моделей и кодам неисправности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИтогиПоГруппамМоделейИКодовНеисправности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="cf2471fe-dfeb-4bf6-8eb5-ced2ef1ec2d6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

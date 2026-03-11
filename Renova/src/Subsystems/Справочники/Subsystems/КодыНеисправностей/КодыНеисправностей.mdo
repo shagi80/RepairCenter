@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851308aa-0f42-4a85-a92d-5447ea5d297d">
+  <name>КодыНеисправностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды неисправностей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КодыНеисправностей</content>
+  <content>Style.СтильСиний</content>
+  <parentSubsystem>Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>
