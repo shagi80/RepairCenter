@@ -74,6 +74,7 @@
   <documents>Document.Ремонт</documents>
   <documents>Document.ОтчетОРемонтах</documents>
   <documents>Document.АктНРП</documents>
+  <documents>Document.ОтчетОПродажах</documents>
   <enums>Enum.СтатусыОтчета</enums>
   <enums>Enum.ВидРемонта</enums>
   <enums>Enum.ВидКлиента</enums>
