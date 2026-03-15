@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6247c7e1-e18d-403f-80ea-b69472be4064">
+  <name>ПервоначальнаяЗагрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первоначальная загрузка</value>
+  </synonym>
+  <location>Constant.ПервоначальнаяЗагрузка</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ЗагрузкаКодовНеисправности</content>
+  <content>DataProcessor.ЗагрузкаСервисныхЦентров</content>
+  <content>DataProcessor.ЗагрузкаВидовПродукции</content>
+  <content>DataProcessor.ЗагрузкаКонтактовКонтрагентов</content>
+  <content>DataProcessor.ЗагрузкаДокументаОтчетОРемонтах</content>
+  <content>DataProcessor.ЗагрузкаРегионовСервиса</content>
+  <content>DataProcessor.ЗагрузкаДокументаРемонт</content>
+  <content>DataProcessor.ЗагрузкаМоделейПродукции</content>
+  <content>Subsystem.Администрирование.Subsystem.ПервичнаяЗагрузка</content>
+</mdclass:FunctionalOption>

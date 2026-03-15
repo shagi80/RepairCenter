@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b70fee8-2061-4119-b25f-2a81817d8fe8">
+  <producedTypes>
+    <selectionType typeId="99ad8b2c-785b-4748-be45-dfcc8b4d2204" valueTypeId="3bc0a2e0-60d0-4926-bce0-9e8cf4cf0ed5"/>
+    <listType typeId="67a3a1bb-48c4-4768-ae9b-128cab373c12" valueTypeId="9a50c1e6-c1d4-4afa-b8fd-7146845c8f15"/>
+    <managerType typeId="bc955182-c12f-4569-86df-42c1b4fb7f2f" valueTypeId="845077cd-40a7-4085-a0c4-162d0890f73f"/>
+    <recordSetType typeId="ef1ec3d8-6d89-412b-8e65-0e9facef5565" valueTypeId="d055a5a2-eb6d-4232-abf3-2aae41a2fc7a"/>
+    <recordKeyType typeId="af68e4cd-cb4e-48fc-b05b-a053c297d93a" valueTypeId="0bf3931d-a848-425a-8818-4505c393f0ec"/>
+    <recordType typeId="20d96434-a76b-4acd-90ad-ad7ceab9651c" valueTypeId="51b6dcdd-dd97-4f65-82b1-80e41b14c3a1"/>
+  </producedTypes>
+  <name>АктыКонтрагентДатаСроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акты контрагент дата сроки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e8dcdd19-2dd4-4de8-96ce-9217e6121cba">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>1</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a19a9c8e-958c-41ab-b4a8-3d53557dd93e">
+    <name>СервисныйЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисный центр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b0bec059-9c03-4b09-b558-7f80ae064443">
+    <name>ДатаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата покупки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7aae7674-f53e-466d-8589-aa33c06405c0">
+    <name>СрокВЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок в эксплуатации (дней)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

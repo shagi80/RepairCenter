@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6148d264-3f3a-4656-a5eb-f988c549859e">
-  <name>ПервичнаяЗагрузкаДанных</name>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f309a886-3539-484f-94e7-680eb8998eb2">
+  <name>ПервичнаяЗагрузка</name>
   <synonym>
     <key>ru</key>
-    <value>Первичная загрузка данных</value>
+    <value>Первичная загрузка</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.SaveReportSettings</picture>
-  </picture>
-  <content>Style.СтильСиний</content>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗагрузкаВидовПродукции</content>
   <content>DataProcessor.ЗагрузкаДокументаОтчетОРемонтах</content>
   <content>DataProcessor.ЗагрузкаДокументаРемонт</content>
   <content>DataProcessor.ЗагрузкаКодовНеисправности</content>
   <content>DataProcessor.ЗагрузкаМоделейПродукции</content>
   <content>DataProcessor.ЗагрузкаРегионовСервиса</content>
-  <content>DataProcessor.ЗагрузкаСервисныхЦентров</content>
   <content>DataProcessor.ЗагрузкаКонтактовКонтрагентов</content>
-  <subsystems>Справочники</subsystems>
-  <subsystems>Документы</subsystems>
+  <content>DataProcessor.ЗагрузкаСервисныхЦентров</content>
+  <content>DataProcessor.ЗагрузкаДокументаАктНРП</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

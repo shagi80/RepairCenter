@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63005a3a-7c16-493c-bbbb-98ee7a8f0f0e">
+  <producedTypes>
+    <managerType typeId="34e2d0ae-593b-4b9b-8279-a913981f39ba" valueTypeId="b239a53c-6271-46a8-a9f5-5ade1da403bd"/>
+    <valueManagerType typeId="ffbd8bd4-7bfb-4288-b312-4ce2a0657845" valueTypeId="69fcd30a-77bd-47ae-92c7-6e43f8b9718b"/>
+    <valueKeyType typeId="e5ada7f3-8673-4b7a-86a1-86e001f38667" valueTypeId="ca6a7a08-3b0e-4c38-b8e0-c33b35a1847c"/>
+  </producedTypes>
+  <name>ПервоначальнаяЗагрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первоначальная загрузка</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

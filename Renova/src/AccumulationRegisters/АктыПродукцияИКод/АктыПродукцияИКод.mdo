@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a51da8bf-182d-4f6b-b34c-b324e9cdd0de">
+  <producedTypes>
+    <selectionType typeId="2ceb1fdb-9a77-496f-8e54-fefae3afa605" valueTypeId="e4f48e1e-b928-4d85-a05c-14c1fc8277b9"/>
+    <listType typeId="a15c46cb-24c4-4291-8b1c-45be5101495a" valueTypeId="e6f270a9-606c-4ecd-8baa-7c1bc028da10"/>
+    <managerType typeId="6c2a8c4a-06dc-4840-8d73-69e207883c82" valueTypeId="b23337d8-d458-4ed7-ae1f-22df76bcc319"/>
+    <recordSetType typeId="b17c1b1e-5ae8-4c35-8df4-8ab4c40ba140" valueTypeId="145c2839-8f4e-49d3-8658-4227145580e1"/>
+    <recordKeyType typeId="93fa406d-60f0-4fbc-8f12-39f7a6ccb826" valueTypeId="13359127-3bc5-4d50-9bdb-5efbb4aa6adb"/>
+    <recordType typeId="80a1db66-6e86-43e8-8589-b3373183ff7e" valueTypeId="2d75e73c-0041-443b-be19-1055c3dbf38f"/>
+  </producedTypes>
+  <name>АктыПродукцияИКод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акты продукция и код</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="10d7e487-3359-435a-a042-08be457bbead">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>1</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f7a68da9-bc79-4538-a0c0-ef1ec18db64a">
+    <name>ВидПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6580d566-7f75-473d-8082-b4af37375ace">
+    <name>МодельПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="393b6598-54a1-4c8b-bc32-908e7e9b7540">
+    <name>КодНеисправности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код неисправности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодыНеисправностей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

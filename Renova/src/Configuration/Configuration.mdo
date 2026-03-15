@@ -44,8 +44,8 @@
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.Документы</subsystems>
   <subsystems>Subsystem.ПервичнаяЗагрузкаДанных</subsystems>
-  <subsystems>Subsystem.Аналитика</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <styles>Style.СтильСиний</styles>
   <sessionParameters>SessionParameter.АдресНастроек</sessionParameters>
   <commonModules>CommonModule.РаботаСCSVСервер</commonModules>
@@ -56,7 +56,11 @@
   <commonModules>CommonModule.РаботаСДиаграммами</commonModules>
   <commonModules>CommonModule.ИсточникДанныхСКД</commonModules>
   <commonModules>CommonModule.КомпоновщикСКД</commonModules>
+  <functionalOptions>FunctionalOption.ПервоначальнаяЗагрузка</functionalOptions>
   <definedTypes>DefinedType.Сумма</definedTypes>
+  <commonCommands>CommonCommand.ОткрытьНастройки</commonCommands>
+  <constants>Constant.ПервоначальнаяЗагрузка</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
   <commonForms>CommonForm.ФормаВыбораОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <catalogs>Catalog.РегионыСервиса</catalogs>
@@ -69,10 +73,12 @@
   <catalogs>Catalog.КодыНеисправностей</catalogs>
   <documents>Document.Ремонт</documents>
   <documents>Document.ОтчетОРемонтах</documents>
+  <documents>Document.АктНРП</documents>
   <enums>Enum.СтатусыОтчета</enums>
   <enums>Enum.ВидРемонта</enums>
   <enums>Enum.ВидКлиента</enums>
   <enums>Enum.КатегорииНоменклатуры</enums>
+  <enums>Enum.ВидМестонахожденияНРП</enums>
   <reports>Report.АнализРемонтов</reports>
   <reports>Report.АнализРемонтовОбщий</reports>
   <reports>Report.ИтогиПоВидамПродукции</reports>
@@ -90,7 +96,10 @@
   <dataProcessors>DataProcessor.ЗагрузкаКонтактовКонтрагентов</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСервисныхЦентров</dataProcessors>
   <dataProcessors>DataProcessor.ОтчетыСЦ</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДокументаАктНРП</dataProcessors>
   <accumulationRegisters>AccumulationRegister.РемонтыИПродукция</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КонтрагентыИДата</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ФабрикиИСмены</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АктыПродукцияИКод</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АктыКонтрагентДатаСроки</accumulationRegisters>
 </mdclass:Configuration>

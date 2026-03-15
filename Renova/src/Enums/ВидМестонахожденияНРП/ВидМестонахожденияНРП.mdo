@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="509dcc2b-5b6f-4350-bd51-2f70b038bd17">
+  <producedTypes>
+    <refType typeId="517039e8-580a-41d9-ac9d-e448bcc113e1" valueTypeId="e8f8a4a5-6a04-43a4-ab7f-c8b2ca29846b"/>
+    <listType typeId="9ee26aa1-9515-42ca-a7f0-5b43984341cd" valueTypeId="cb47fb6d-910c-4298-93e5-74dacdf1ebb0"/>
+    <managerType typeId="56bf4ccb-d2bd-474b-ad4d-fedf18c7ea5d" valueTypeId="d2c1c70a-3dad-4ce4-9dc8-ebf9dd8b87d1"/>
+  </producedTypes>
+  <name>ВидМестонахожденияНРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид местонахождения НРП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Местонахождение изделий</value>
+  </listPresentation>
+  <enumValues uuid="34cf0e50-832d-446b-8b58-19518ebccfbe">
+    <name>УКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>У клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35487965-1afe-4568-bd39-d3ffb8c06144">
+    <name>ВСервисномЦентре</name>
+    <synonym>
+      <key>ru</key>
+      <value>В сервисном центре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ab782c2-d4a5-45f6-b306-bcca74159de9">
+    <name>УПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>У производителя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
