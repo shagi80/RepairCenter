@@ -62,14 +62,6 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ДФ='MMMM yyyy'</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ДФ='MMMM yyyy'</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -89,14 +81,6 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ДФ='MMMM yyyy'</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ДФ='MMMM yyyy'</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
