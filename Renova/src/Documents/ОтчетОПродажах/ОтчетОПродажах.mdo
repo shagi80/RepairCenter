@@ -30,6 +30,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОтчетОПродажах.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ОтчетОПродажах.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ОтчетПоПродажам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f3d18190-cd11-4db2-be91-7a0a0001ec16">
@@ -103,6 +104,21 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9e49f01-a903-4091-9ba5-d5696fe3110b">
+    <name>ФирмаПроизводитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФирмыПроизводители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

@@ -73,6 +73,7 @@
   <catalogs>Catalog.ГруппыМоделей</catalogs>
   <catalogs>Catalog.ФабрикиИСмены</catalogs>
   <catalogs>Catalog.КодыНеисправностей</catalogs>
+  <catalogs>Catalog.ФирмыПроизводители</catalogs>
   <documents>Document.Ремонт</documents>
   <documents>Document.ОтчетОРемонтах</documents>
   <documents>Document.АктНРП</documents>
@@ -106,4 +107,5 @@
   <accumulationRegisters>AccumulationRegister.ФабрикиИСмены</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.АктыПродукцияИКод</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.АктыКонтрагентДатаСроки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОтчетПоПродажам</accumulationRegisters>
 </mdclass:Configuration>
