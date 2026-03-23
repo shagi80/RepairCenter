@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42516e7e-a088-4c0c-b56b-6fd94fbeab2b">
+  <producedTypes>
+    <objectType typeId="8579c24e-8467-4640-8960-ab70d78bf072" valueTypeId="2b786595-ce71-4716-aec2-a16fe9a3de87"/>
+    <refType typeId="033d7ca8-5fca-48ad-a16f-c3c3dccffa0a" valueTypeId="82ffd698-0e4c-4920-aed5-793909fba8ca"/>
+    <selectionType typeId="41207a8b-ab4a-4964-9450-9a5d03599607" valueTypeId="30aa8935-2a26-4896-9268-f422d1d166ae"/>
+    <listType typeId="484c7fc0-4b37-4552-917c-2f1cba84a389" valueTypeId="5061da14-b9f5-464d-ba77-e1e720b161d5"/>
+    <managerType typeId="1101a9ab-5863-4e60-bc83-67ea978add03" valueTypeId="4ab9ec1c-d746-4af3-b945-9f8053cd43a9"/>
+  </producedTypes>
+  <name>ФирмыПроизводители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фирмы производители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФирмыПроизводители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФирмыПроизводители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Фирма производитель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Фирмы производители</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <subordinationUse>ToFolders</subordinationUse>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f2f57c2-8be2-4213-8a8e-b32340b8a0d4">
+  <producedTypes>
+    <selectionType typeId="055aa579-5912-4f8a-8b37-21a814050f88" valueTypeId="ad4cfdf5-862e-4b42-9193-f633c202a46c"/>
+    <listType typeId="e09529e1-68a1-4b7d-8889-008532f08ef1" valueTypeId="9780cc56-cd8c-4038-9c2c-947e52ea0944"/>
+    <managerType typeId="24938729-62da-451b-bc19-5b51bc26f1b3" valueTypeId="a888fe4f-3d59-430c-a0b2-f8269ae3cfaa"/>
+    <recordSetType typeId="618747b7-5452-4ca2-bc6c-1d3d9a1c9308" valueTypeId="927c6d71-d460-4958-bd40-3e7d1c231bd4"/>
+    <recordKeyType typeId="588d3944-72b5-468e-a0ec-30f24c332fd3" valueTypeId="ae3f2275-a574-451b-b264-40aafff2f7b2"/>
+    <recordType typeId="ba60b82d-eed0-47ab-bd1d-a176834fa37d" valueTypeId="bbe51e7a-e121-4758-8908-45472b8f8b85"/>
+  </producedTypes>
+  <name>ОтчетПоПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по продажам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="16210615-e8de-4199-83ae-1110046f8287">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a5774243-f528-464d-88dc-6ad00820c7e8">
+    <name>ВидПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e5c6be66-facf-4263-83f5-b4aa4d669f93">
+    <name>МодельПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="689e2f42-a626-4056-8024-4488910d59e1">
+    <name>Фабрика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фабрика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФабрикиИСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a6f77e43-8eec-4044-9115-454093acde2b">
+    <name>Фирма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фирма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФирмыПроизводители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8a1a8079-2655-4844-aa54-c85abeb0fdac">
+    <name>МесяцПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц продаж</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
