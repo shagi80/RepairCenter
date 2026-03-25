@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6addbf25-bae8-4043-bf77-45e85f6cf70f">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc893ec5-fbdb-4134-aaa4-ee03d5d09670">
   <producedTypes>
-    <objectType typeId="0d0b8181-cdf6-41c2-b2d9-4591746ddc05" valueTypeId="c0af4b0a-4e4d-41a2-96e6-4c0db78d8bfa"/>
-    <refType typeId="1857c005-6dc9-46dc-b542-12adf307547d" valueTypeId="6bef090a-d86f-41ba-bffe-123993315208"/>
-    <selectionType typeId="eecae165-19da-4665-8e06-20afb2d8e54f" valueTypeId="3ba8506f-6716-4545-ac43-6b64b66818d3"/>
-    <listType typeId="dcfa3376-821b-49bc-9079-c5dff684db04" valueTypeId="9abd82e4-fbe9-4839-87b2-3995e8a51e57"/>
-    <managerType typeId="33d8c869-b365-40a9-b3d9-851c371b3cce" valueTypeId="ddd89612-011f-4cf5-928e-21097e36fd87"/>
+    <objectType typeId="4b9a7591-ad1d-4840-b236-cc9127e9b3e0" valueTypeId="b09cfa41-2848-4327-8d0b-800cb62bb070"/>
+    <refType typeId="7eb2ca28-8bfe-4306-82b7-bfb32561986e" valueTypeId="96d239f3-e70e-4e3c-b9d0-ba3ab2d35554"/>
+    <selectionType typeId="74c80fad-0606-4f66-baeb-14f8b8ff8316" valueTypeId="b920784b-9526-4d86-a630-3d0054163796"/>
+    <listType typeId="ce2bedaa-bad3-475f-9ab4-78070a48e6ee" valueTypeId="daa7862e-89c7-437b-9a84-7a82ee49a524"/>
+    <managerType typeId="d4e598ae-aaea-4303-9602-e8d521c80aac" valueTypeId="3422ff36-01b6-4ec2-a567-7eac13199a6d"/>
   </producedTypes>
-  <name>ОтчетОПродажах</name>
+  <name>ОтчетОПроизводстве</name>
   <synonym>
     <key>ru</key>
-    <value>Отчет о продажах</value>
+    <value>Отчет о производстве</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ОтчетОПродажах.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ОтчетОПроизводстве.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Отчеты о продажах</value>
+    <value>Отчеты о производстве</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -28,13 +28,12 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ОтчетОПродажах.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ОтчетОПродажах.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.Продажи</registerRecords>
-  <registerRecords>AccumulationRegister.ОтчетПоПродажам</registerRecords>
+  <defaultObjectForm>Document.ОтчетОПроизводстве.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОтчетОПроизводстве.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.Производство</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f3d18190-cd11-4db2-be91-7a0a0001ec16">
+  <attributes uuid="d5ee0139-b9bb-440e-b61d-42b71bd403b9">
     <name>СписокВидовПродукции</name>
     <synonym>
       <key>ru</key>
@@ -52,7 +51,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a30d3d7a-715c-453b-9743-783d9ed630bb">
+  <attributes uuid="eaf5b005-d145-4f4c-a75f-60fb8b228fda">
     <name>НачалоПериода</name>
     <synonym>
       <key>ru</key>
@@ -71,7 +70,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ff8afcc6-4918-4e99-a350-abd648aea8b2">
+  <attributes uuid="d9bdb792-887c-4c3c-a4f7-7ae750515afe">
     <name>КонецПериода</name>
     <synonym>
       <key>ru</key>
@@ -90,7 +89,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="843b76af-2ac9-4420-931e-2e554bbbc358">
+  <attributes uuid="57b3ce64-3b02-4b97-892f-04bd022ea5e2">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -108,38 +107,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b9e49f01-a903-4091-9ba5-d5696fe3110b">
-    <name>ФирмаПроизводитель</name>
+  <attributes uuid="758652d7-62dc-475e-b17e-1e1401d0a20a">
+    <name>Фабрика</name>
     <synonym>
       <key>ru</key>
-      <value>Фирма производитель</value>
+      <value>Фабрика</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФирмыПроизводители</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="a99e2d42-659f-44da-8363-55abb0f8d81b">
-    <name>Фирма</name>
-    <synonym>
-      <key>ru</key>
-      <value>Фирма</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Фирмы</types>
+      <types>CatalogRef.ФабрикиИСмены</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="d02f962a-256b-4014-8516-7b8807b03556">
+  <forms uuid="7751df32-3eff-4752-a533-a33c6b8c6cb7">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -148,7 +133,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="8fce418f-d483-40be-bb5d-0018e6eb6cfa">
+  <forms uuid="e7a03a62-66b9-4477-80d1-2fffb03cf65b">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -157,10 +142,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="824ae4f8-e5b4-40b7-81da-8102081890f7">
+  <tabularSections uuid="79efd856-7a11-44cc-9d63-449f2742a5e3">
     <producedTypes>
-      <objectType typeId="1c73f16c-1839-4ac9-9ccf-8572489c974c" valueTypeId="36a77762-4b2b-4b0f-a5d6-a6e4b29f5089"/>
-      <rowType typeId="6d2eb6b0-fff7-48b1-8b23-56d7a9d82510" valueTypeId="7d449ff0-34ca-462c-ac80-a57789e09205"/>
+      <objectType typeId="f0760b84-b2a7-4765-a09d-6cc4796be4d3" valueTypeId="59b67671-4d1b-47c5-b1f0-a5e04001dcd3"/>
+      <rowType typeId="a3347668-4ab7-4922-ba21-4f393313a42b" valueTypeId="3c3b43f3-e493-4cd7-b88c-8298148392cd"/>
     </producedTypes>
     <name>Товары</name>
     <synonym>
@@ -168,7 +153,7 @@
       <value>Товары</value>
     </synonym>
     <fillChecking>ShowError</fillChecking>
-    <attributes uuid="cfb4e4b4-609a-4d8d-ace4-b31b3811a4f2">
+    <attributes uuid="5ead1fc7-4ded-4e67-810e-f855da07637a">
       <name>ВидПродукции</name>
       <synonym>
         <key>ru</key>
@@ -182,7 +167,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="2ffae6d7-5e9a-4294-b2b5-33cdb293a53c">
+    <attributes uuid="c348ddab-4d2d-43a0-9e38-c3bfd8deb6a5">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -200,7 +185,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="7b3b9a1b-eba0-4b24-aa34-fb30004070c2">
+    <attributes uuid="4e932da9-28f0-4002-9f8e-5d216355fc85">
       <name>МесяцПродаж</name>
       <synonym>
         <key>ru</key>
@@ -218,7 +203,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="41d9545e-8d5a-4423-adce-25136b100a19">
+    <attributes uuid="810b952c-8e7c-4662-bc51-3ca8d671e998">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>

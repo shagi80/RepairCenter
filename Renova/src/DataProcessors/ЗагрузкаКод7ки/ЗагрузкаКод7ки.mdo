@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c25032d-e221-46b0-b088-36de380059f1">
+  <producedTypes>
+    <objectType typeId="f9bc5465-43c7-4324-a2a4-0211e9908fff" valueTypeId="1c0a8d65-e7b1-410f-bad7-ba466aa70e76"/>
+    <managerType typeId="07602327-6f9f-40ac-8583-ab1dbd613d5d" valueTypeId="800ee9f7-3cac-4fe7-8f7c-73b1d803fc70"/>
+  </producedTypes>
+  <name>ЗагрузкаКод7ки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка код7ки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКод7ки.Form.Форма</defaultForm>
+  <attributes uuid="c2874f01-79e3-4dd8-b45b-076e0bd336a7">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae456bde-0b74-4163-afca-2c9e00129b18">
+    <name>ТаблицаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица загрузки</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="a1605833-e9cc-4de1-98de-374a5421546a">
+    <producedTypes>
+      <objectType typeId="ade9dbf9-939f-4474-bd0d-144ce33d87fe" valueTypeId="b70cf7f1-b680-4b30-b330-b9dea7789a1a"/>
+      <rowType typeId="cd47605f-103e-4c04-bd67-b06d86aa6f9c" valueTypeId="5738af5a-1831-44eb-a799-2fac11ed368c"/>
+    </producedTypes>
+    <name>ТаблицаМоделей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица моделей</value>
+    </synonym>
+    <attributes uuid="7f8cf6ad-3ac4-446e-8819-8441c5b61625">
+      <name>МодельИзФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель из файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="09d743a7-95d3-4482-98a1-88edb3811d30">
+      <name>ДанныеСправочника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные справочника</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МоделиПродукции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0aa3779d-ec22-467e-bae1-2d5e307166da">
+      <name>Код7ки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код7ки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ce704221-1c0c-4d5f-8352-23c3c64ca0ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

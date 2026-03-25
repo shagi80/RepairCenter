@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df06b960-ea95-458e-a0bc-69a1b3cf85aa">
+  <producedTypes>
+    <selectionType typeId="305a2311-f4ac-43f6-8788-675a4a0f9963" valueTypeId="3c0dec88-6cf6-425d-b189-8a6b7890fc7f"/>
+    <listType typeId="993211cd-f59b-42f2-80e9-bd9a527d8d36" valueTypeId="7640adef-6d8f-42df-981c-feaed5619bf7"/>
+    <managerType typeId="bd14dda8-f589-4c61-b3ee-b81dc9ba9dff" valueTypeId="05750556-86ac-45ef-bc70-8c7f54c921c5"/>
+    <recordSetType typeId="aca97498-eef8-4aa8-9d11-f1acc03ee3ff" valueTypeId="786c2a81-777d-46a7-a5b4-6da056afd93c"/>
+    <recordKeyType typeId="9466c109-1eab-4224-b470-894adeaa528f" valueTypeId="a05c8690-b222-49d6-a4b6-cdcb0a1db9fc"/>
+    <recordType typeId="06138819-127f-4528-aef2-d8383613ba05" valueTypeId="c6960a99-afee-440c-a2c6-02f94e62faed"/>
+  </producedTypes>
+  <name>Производство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b4d07095-bfaf-4ab4-8559-cd57c15c7d21">
+    <name>КоличествоПродано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="4022e9e3-1051-4dde-9799-c5ef91f48b1a">
+    <name>КоличествоПроизведено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество произведено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="bd0efc7d-be42-40f3-a755-9dd1024cae5b">
+    <name>ВидПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="df8516de-ceb2-4e55-ac99-6adffcfd6c2f">
+    <name>МоделиПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модели продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="37a551fb-5def-46d0-a646-b07d49191c47">
+    <name>Фабрика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фабрика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФабрикиИСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

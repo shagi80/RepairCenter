@@ -17,5 +17,6 @@
   <content>DataProcessor.ЗагрузкаСервисныхЦентров</content>
   <content>DataProcessor.ЗагрузкаДокументаАктНРП</content>
   <content>82c0e5dd-e30e-4ee5-ab86-b3af2101e21a</content>
+  <content>DataProcessor.ЗагрузкаКод7ки</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

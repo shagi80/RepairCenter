@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ФабрикиИСмены</content>
   <content>Style.СтильСиний</content>
+  <content>Catalog.Фирмы</content>
   <parentSubsystem>Subsystem.Справочники</parentSubsystem>
 </mdclass:Subsystem>

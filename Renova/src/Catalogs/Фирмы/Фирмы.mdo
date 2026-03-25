@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27721d0b-f673-4bd8-9d5c-e5aa0474c5b1">
+  <producedTypes>
+    <objectType typeId="daac25dc-31d4-4274-83ee-b97e22853456" valueTypeId="ed2163bb-fc89-489b-a910-d783c8e2a4f2"/>
+    <refType typeId="7db16bda-38db-4b5c-a167-685d7fe1a0c8" valueTypeId="a2fc39de-c421-4dd5-8281-0b9895f94fca"/>
+    <selectionType typeId="54fbda15-baef-483c-9c61-d744cea4ff15" valueTypeId="6d31445b-c6e3-4700-9c92-cf60cc496a7b"/>
+    <listType typeId="d2d49dc6-3683-4895-888e-7b2c43d11a7e" valueTypeId="94c28469-28cc-45fa-88d4-521354038c2b"/>
+    <managerType typeId="8c0cd4bb-a7ba-409d-a114-94944927b026" valueTypeId="a26dddc0-5342-4e28-ab1e-05fd2e3cd9fd"/>
+  </producedTypes>
+  <name>Фирмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фирмы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Фирмы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Фирмы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Фирма</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Фирмы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e3f8553c-2db5-4b58-8be4-e4b9a9aaf69e">
+    <name>Код7ки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код7ки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="692482bd-3c1c-4b4e-9185-257f80e56e4e">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФабрикиИСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

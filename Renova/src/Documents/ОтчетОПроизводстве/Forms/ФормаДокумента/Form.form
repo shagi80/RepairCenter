@@ -113,47 +113,6 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>ФирмаПроизводитель</name>
-    <id>104</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ФирмаПроизводитель</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ФирмаПроизводительРасширеннаяПодсказка</name>
-      <id>107</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ФирмаПроизводительКонтекстноеМеню</name>
-      <id>106</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаШапка</name>
     <id>99</id>
@@ -166,7 +125,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Фирма</segments>
+        <segments>Объект.Фабрика</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФирмаРасширеннаяПодсказка</name>
@@ -682,7 +641,7 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьДанные</name>
-      <id>105</id>
+      <id>99</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -690,7 +649,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ФормаЗагрузитьДанныеРасширеннаяПодсказка</name>
-        <id>108</id>
+        <id>100</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -729,7 +688,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ОтчетОПродажах</types>
+      <types>DocumentObject.ОтчетОПроизводстве</types>
     </valueType>
     <view>
       <common>true</common>

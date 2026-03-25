@@ -74,10 +74,12 @@
   <catalogs>Catalog.ФабрикиИСмены</catalogs>
   <catalogs>Catalog.КодыНеисправностей</catalogs>
   <catalogs>Catalog.ФирмыПроизводители</catalogs>
+  <catalogs>Catalog.Фирмы</catalogs>
   <documents>Document.Ремонт</documents>
   <documents>Document.ОтчетОРемонтах</documents>
   <documents>Document.АктНРП</documents>
   <documents>Document.ОтчетОПродажах</documents>
+  <documents>Document.ОтчетОПроизводстве</documents>
   <enums>Enum.СтатусыОтчета</enums>
   <enums>Enum.ВидРемонта</enums>
   <enums>Enum.ВидКлиента</enums>
@@ -102,10 +104,13 @@
   <dataProcessors>DataProcessor.ЗагрузкаСервисныхЦентров</dataProcessors>
   <dataProcessors>DataProcessor.ОтчетыСЦ</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДокументаАктНРП</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКод7ки</dataProcessors>
   <accumulationRegisters>AccumulationRegister.РемонтыИПродукция</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КонтрагентыИДата</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ФабрикиИСмены</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.АктыПродукцияИКод</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.АктыКонтрагентДатаСроки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОтчетПоПродажам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Производство</accumulationRegisters>
 </mdclass:Configuration>

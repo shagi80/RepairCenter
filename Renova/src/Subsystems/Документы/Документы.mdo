@@ -15,4 +15,5 @@
   <content>Style.СтильСиний</content>
   <content>Document.АктНРП</content>
   <content>Document.ОтчетОПродажах</content>
+  <content>Document.ОтчетОПроизводстве</content>
 </mdclass:Subsystem>
