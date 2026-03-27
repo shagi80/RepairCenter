@@ -641,7 +641,7 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьДанные</name>
-      <id>99</id>
+      <id>104</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -649,7 +649,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ФормаЗагрузитьДанныеРасширеннаяПодсказка</name>
-        <id>100</id>
+        <id>105</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
