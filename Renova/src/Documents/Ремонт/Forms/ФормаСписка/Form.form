@@ -190,6 +190,10 @@
     <items xsi:type="form:FormField">
       <name>Отчет</name>
       <id>57</id>
+      <title>
+        <key>ru</key>
+        <value>Отчет</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

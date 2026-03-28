@@ -10,6 +10,5 @@
   <content>Style.СтильСиний</content>
   <content>DataProcessor.ЗагрузкаДокументаОтчетОРемонтах</content>
   <content>DataProcessor.ЗагрузкаДокументаРемонт</content>
-  <content>82c0e5dd-e30e-4ee5-ab86-b3af2101e21a</content>
   <parentSubsystem>Subsystem.ПервичнаяЗагрузкаДанных</parentSubsystem>
 </mdclass:Subsystem>

@@ -55,7 +55,7 @@
   <commonModules>CommonModule.РаботаСФайломКлиент</commonModules>
   <commonModules>CommonModule.РаботаСФайломСервер</commonModules>
   <commonModules>CommonModule.РаботаСФормамиСервер</commonModules>
-  <commonModules>CommonModule.РаботаСДиаграммами</commonModules>
+  <commonModules>CommonModule.РаботаСДиаграммамиКлиентСервер</commonModules>
   <commonModules>CommonModule.ИсточникДанныхСКД</commonModules>
   <commonModules>CommonModule.КомпоновщикСКД</commonModules>
   <functionalOptions>FunctionalOption.ПервоначальнаяЗагрузка</functionalOptions>

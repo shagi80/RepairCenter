@@ -97,13 +97,12 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -186,10 +185,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="4e932da9-28f0-4002-9f8e-5d216355fc85">
-      <name>МесяцПродаж</name>
+      <name>МесяцПроизводства</name>
       <synonym>
         <key>ru</key>
-        <value>Месяц продаж</value>
+        <value>Месяц производства</value>
       </synonym>
       <type>
         <types>Date</types>
