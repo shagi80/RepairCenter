@@ -66,6 +66,7 @@
   <commonCommands>CommonCommand.ОткрытьСписокОтчетовОПродажах</commonCommands>
   <commonCommands>CommonCommand.ОткрытьСписокОтчетовОПроизводстве</commonCommands>
   <constants>Constant.ПервоначальнаяЗагрузка</constants>
+  <constants>Constant.СоздаватьМоделиПриЗагрузкеПродажИПроизводства</constants>
   <commonForms>CommonForm.Настройки</commonForms>
   <commonForms>CommonForm.ФормаВыбораОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>

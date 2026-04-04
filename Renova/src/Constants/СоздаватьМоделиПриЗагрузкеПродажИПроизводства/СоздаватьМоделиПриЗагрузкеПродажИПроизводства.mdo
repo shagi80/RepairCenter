@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9424ce0b-66dd-4cde-bc6d-a6ab9f9daa3c">
+  <producedTypes>
+    <managerType typeId="26dd028f-73b3-489e-ab58-667c22e15b18" valueTypeId="ff16e580-48a5-40ce-a273-2f522943d3c1"/>
+    <valueManagerType typeId="6e7f104d-ecac-4c46-b735-d9d0379cb098" valueTypeId="f881550d-bbd0-47c7-b391-9265a3869ab0"/>
+    <valueKeyType typeId="d7cdc41e-20e9-4742-9eae-618252b8c34f" valueTypeId="0659bd3d-0366-43cf-8257-efadf3a11333"/>
+  </producedTypes>
+  <name>СоздаватьМоделиПриЗагрузкеПродажИПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать модели при загрузке продаж и производства</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

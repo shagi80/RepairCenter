@@ -10,5 +10,6 @@
   <content>CommonForm.Настройки</content>
   <content>CommonCommand.ОткрытьНастройки</content>
   <content>Report.ПровекаЗаполненияКодовНоменклатуры</content>
+  <content>Constant.СоздаватьМоделиПриЗагрузкеПродажИПроизводства</content>
   <subsystems>ПервичнаяЗагрузка</subsystems>
 </mdclass:Subsystem>
