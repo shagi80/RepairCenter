@@ -100,6 +100,8 @@
   <reports>Report.ИтогиПоГруппамМоделейПоСрокуСлужбы</reports>
   <reports>Report.ИтогиПоГруппамМоделейИКодовНеисправности</reports>
   <reports>Report.ПровекаЗаполненияКодовНоменклатуры</reports>
+  <reports>Report.ИтогиПоПродажам</reports>
+  <reports>Report.ИтогиПоПроизводству</reports>
   <dataProcessors>DataProcessor.ЗагрузкаВидовПродукции</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДокументаОтчетОРемонтах</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДокументаРемонт</dataProcessors>
