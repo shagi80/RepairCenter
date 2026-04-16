@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9609c22f-f6ee-48e7-98cf-a01bb6841322">
+  <name>ЦветШрифтаНазванияДиаграммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет шрифта названия диаграммы</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>13</red>
+      <green>110</green>
+      <blue>253</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

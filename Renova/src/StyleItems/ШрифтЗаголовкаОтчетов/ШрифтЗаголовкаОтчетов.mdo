@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfe49b03-ff5a-483b-b2d1-3380bd86c4c3">
+  <name>ШрифтЗаголовкаОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт заголовка отчетов</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+      <height>12.0</height>
+      <bold>true</bold>
+    </value>
+  </value>
+</mdclass:StyleItem>
