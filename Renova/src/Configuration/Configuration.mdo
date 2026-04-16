@@ -47,6 +47,8 @@
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <styleItems>StyleItem.ШрифтЖирный</styleItems>
+  <styleItems>StyleItem.ШрифтЗаголовкаОтчетов</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаНазванияДиаграммы</styleItems>
   <styles>Style.СтильСиний</styles>
   <sessionParameters>SessionParameter.АдресНастроек</sessionParameters>
   <commonModules>CommonModule.РаботаСCSVСервер</commonModules>

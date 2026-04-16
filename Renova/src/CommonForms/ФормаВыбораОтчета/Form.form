@@ -138,10 +138,6 @@
               <event>Click</event>
               <name>СсылкаОтчет1Нажатие</name>
             </handlers>
-            <handlers>
-              <event>URLProcessing</event>
-              <name>СсылкаОтчет1ОбработкаНавигационнойСсылки</name>
-            </handlers>
             <hyperlink>true</hyperlink>
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>

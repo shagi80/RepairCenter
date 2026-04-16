@@ -124,35 +124,6 @@
     <items xsi:type="form:FormGroup">
       <name>ДиаграммаСтраница</name>
       <id>10</id>
-      <items xsi:type="form:Button">
-        <name>Обновить</name>
-        <id>36</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ОбновитьРасширеннаяПодсказка</name>
-          <id>37</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualButton</type>
-        <commandName>Form.Command.Обновить</commandName>
-        <representation>Picture</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.Refresh</picture>
-        </picture>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаДиаграмм</name>
         <id>15</id>
@@ -228,18 +199,11 @@
               <key>ru</key>
               <value>КОЛИЧЕСТВО</value>
             </title>
-            <titleTextColor xsi:type="core:ColorDef">
-              <red>13</red>
-              <green>110</green>
-              <blue>253</blue>
+            <titleTextColor xsi:type="core:ColorRef">
+              <color>Style.ЦветШрифтаНазванияДиаграммы</color>
             </titleTextColor>
             <titleFont xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-              <scale>100</scale>
+              <font>Style.ШрифтЗаголовкаОтчетов</font>
             </titleFont>
             <toolTip>
               <key>ru</key>
@@ -339,18 +303,11 @@
               <key>ru</key>
               <value>ЗАТРАТЫ</value>
             </title>
-            <titleTextColor xsi:type="core:ColorDef">
-              <red>13</red>
-              <green>110</green>
-              <blue>253</blue>
+            <titleTextColor xsi:type="core:ColorRef">
+              <color>Style.ЦветШрифтаНазванияДиаграммы</color>
             </titleTextColor>
             <titleFont xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-              <scale>100</scale>
+              <font>Style.ШрифтЗаголовкаОтчетов</font>
             </titleFont>
             <toolTip>
               <key>ru</key>
@@ -486,18 +443,11 @@
               <key>ru</key>
               <value>% ЗАТРАТ</value>
             </title>
-            <titleTextColor xsi:type="core:ColorDef">
-              <red>13</red>
-              <green>110</green>
-              <blue>253</blue>
+            <titleTextColor xsi:type="core:ColorRef">
+              <color>Style.ЦветШрифтаНазванияДиаграммы</color>
             </titleTextColor>
             <titleFont xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-              <scale>100</scale>
+              <font>Style.ШрифтЗаголовкаОтчетов</font>
             </titleFont>
             <toolTip>
               <key>ru</key>
@@ -610,6 +560,89 @@
       <extendedTooltip>
         <name>ДиаграммаСтраницаРасширеннаяПодсказка</name>
         <id>11</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Chart</picture>
+        </picture>
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ДиаграммыСписок</name>
+      <id>36</id>
+      <items xsi:type="form:FormField">
+        <name>ДиаграммаСводная</name>
+        <id>38</id>
+        <title>
+          <key>ru</key>
+          <value>Диаграммы отчета</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДиаграммаСводная</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДиаграммаСводнаяРасширеннаяПодсказка</name>
+          <id>40</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДиаграммаСводнаяКонтекстноеМеню</name>
+          <id>39</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>SpreadsheetDocumentField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+          <width>50</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+          <pointerType>Special</pointerType>
+          <verticalScrollBar>ScrollAuto</verticalScrollBar>
+          <horizontalScrollBar>ScrollAuto</horizontalScrollBar>
+          <selectionShowMode>Always</selectionShowMode>
+          <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
+          <showGroups>true</showGroups>
+          <enableStartDrag>true</enableStartDrag>
+          <enableDrag>true</enableDrag>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Диаграммы список</value>
+      </title>
+      <extendedTooltip>
+        <name>ДиаграммыСписокРасширеннаяПодсказка</name>
+        <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -798,27 +831,66 @@
       <common>true</common>
     </edit>
   </attributes>
-  <formCommands>
-    <name>Обновить</name>
+  <attributes>
+    <name>ВысотаДиаграммы</name>
     <title>
       <key>ru</key>
-      <value>Обновить</value>
+      <value>Высота диаграммы</value>
     </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Обновить</value>
-    </toolTip>
-    <use>
+    <id>8</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
       <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>Обновить</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СчетчикДиаграмм</name>
+    <title>
+      <key>ru</key>
+      <value>Счетчик диаграмм</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДиаграммаСводная</name>
+    <title>
+      <key>ru</key>
+      <value>Диаграмма сводная</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>SpreadsheetDocument</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
