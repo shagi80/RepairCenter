@@ -572,7 +572,7 @@
 	Ремонт.Номер КАК Номер,
 	Ремонт.Дата КАК Дата,
 	Ремонт.IDСайта КАК IDСайта,
-	(ВЫРАЗИТЬ(ОтчетОРемонтах.СервисныйЦентр.Наименование КАК СТРОКА(150))) + &quot; за &quot; + (ВЫРАЗИТЬ(ОтчетОРемонтах.ОтчетныйПериод КАК СТРОКА(150))) КАК Отчет,
+	(ВЫРАЗИТЬ(ОтчетОРемонтах.СервисныйЦентр.Наименование КАК СТРОКА(150))) + &amp;Предлог + (ВЫРАЗИТЬ(ОтчетОРемонтах.ОтчетныйПериод КАК СТРОКА(150))) КАК Отчет,
 	Ремонт.ВидРемонта КАК ВидРемонта,
 	Ремонт.Клиент КАК Клиент,
 	Ремонт.МодельПродукции КАК МодельПродукции,
@@ -589,10 +589,6 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-      </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Отчет</dataPath>
         <field>Отчет</field>
@@ -626,40 +622,16 @@
         <field>Клиент</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проверен</dataPath>
-        <field>Проверен</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВидПродукции</dataPath>
-        <field>ВидПродукции</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Производитель</dataPath>
-        <field>Производитель</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номер</dataPath>
         <field>Номер</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Дата</dataPath>
         <field>Дата</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаПроверки</dataPath>
-        <field>ДатаПроверки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СуммаЗаВыезд</dataPath>
-        <field>СуммаЗаВыезд</field>
+        <dataPath>ВидПродукции</dataPath>
+        <field>ВидПродукции</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>СерийныйНомер</dataPath>
@@ -672,10 +644,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ТелефонКлиента</dataPath>
         <field>ТелефонКлиента</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаПроизводства</dataPath>
-        <field>ДатаПроизводства</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>АдресКлиента</dataPath>
@@ -694,12 +662,12 @@
         <field>КодНеисправности</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Комментарий</dataPath>
-        <field>Комментарий</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ОписаниеРабот</dataPath>
         <field>ОписаниеРабот</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СуммаЗаВыезд</dataPath>
+        <field>СуммаЗаВыезд</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>СуммаЗаДетали</dataPath>
@@ -714,6 +682,18 @@
         <field>СуммаИтого</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проверен</dataPath>
+        <field>Проверен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Производитель</dataPath>
+        <field>Производитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаПроизводства</dataPath>
+        <field>ДатаПроизводства</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПроизводственнаяСмена</dataPath>
         <field>ПроизводственнаяСмена</field>
       </fields>
@@ -722,9 +702,50 @@
         <field>ГруппаМодели</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаПроверки</dataPath>
+        <field>ДатаПроверки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Комментарий</dataPath>
+        <field>Комментарий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КодОтчета</dataPath>
         <field>КодОтчета</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <parameters>
+        <name>Предлог</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Предлог</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers>
+            <length>10</length>
+          </stringQualifiers>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <expression>&quot; за &quot;</expression>
+      </parameters>
     </extInfo>
   </attributes>
   <commandInterface>

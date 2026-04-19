@@ -44,8 +44,8 @@
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.Документы</subsystems>
   <subsystems>Subsystem.ПервичнаяЗагрузкаДанных</subsystems>
-  <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
   <styleItems>StyleItem.ШрифтЖирный</styleItems>
   <styleItems>StyleItem.ШрифтЗаголовкаОтчетов</styleItems>
   <styleItems>StyleItem.ЦветШрифтаНазванияДиаграммы</styleItems>
@@ -94,9 +94,6 @@
   <enums>Enum.КатегорииНоменклатуры</enums>
   <enums>Enum.ВидМестонахожденияНРП</enums>
   <enums>Enum.ВидДокументаПродажиИПроизводство</enums>
-  <reports>Report.АнализРемонтов</reports>
-  <reports>Report.Отчет</reports>
-  <reports>Report.АнализРемонтовОбщий</reports>
   <reports>Report.ИтогиПоВидамПродукции</reports>
   <reports>Report.ИтогиПоВидамПродукцииПоСрокуСлужбы</reports>
   <reports>Report.ИтогиПоВидамЗаводскойПродукции</reports>

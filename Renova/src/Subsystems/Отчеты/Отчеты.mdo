@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e444e18-0648-4b91-ae04-d50e26f19d99">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d7905c8-09d3-4420-80c7-08ed257323ac">
   <name>Отчеты</name>
   <synonym>
     <key>ru</key>
@@ -8,9 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <useOneCommand>true</useOneCommand>
-  <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.Chart</picture>
-  </picture>
-  <content>a1ba80b3-25b2-48e1-b68e-7a0ab6f22dc9</content>
   <content>DataProcessor.ОтчетыСЦ</content>
 </mdclass:Subsystem>
