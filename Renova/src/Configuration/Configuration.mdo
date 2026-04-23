@@ -50,6 +50,8 @@
   <styleItems>StyleItem.ЦветШрифтаНазванияДиаграммы</styleItems>
   <styles>Style.СтильСиний</styles>
   <sessionParameters>SessionParameter.АдресНастроек</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
   <commonModules>CommonModule.РаботаСCSVСервер</commonModules>
   <commonModules>CommonModule.СоответсвияСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСтрокойСервер</commonModules>
