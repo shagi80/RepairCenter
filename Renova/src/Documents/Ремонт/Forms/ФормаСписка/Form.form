@@ -572,7 +572,7 @@
 	Ремонт.Номер КАК Номер,
 	Ремонт.Дата КАК Дата,
 	Ремонт.IDСайта КАК IDСайта,
-	(ВЫРАЗИТЬ(ОтчетОРемонтах.СервисныйЦентр.Наименование КАК СТРОКА(150))) + &amp;Предлог + (ВЫРАЗИТЬ(ОтчетОРемонтах.ОтчетныйПериод КАК СТРОКА(150))) КАК Отчет,
+	(ВЫРАЗИТЬ(ОтчетОРемонтах.СервисныйЦентр.Наименование КАК СТРОКА(150))) + &amp;ПредлогСвязка + (ВЫРАЗИТЬ(ОтчетОРемонтах.ОтчетныйПериод КАК СТРОКА(150))) КАК Отчет,
 	Ремонт.ВидРемонта КАК ВидРемонта,
 	Ремонт.Клиент КАК Клиент,
 	Ремонт.МодельПродукции КАК МодельПродукции,
@@ -726,12 +726,12 @@
         <field>Ссылка</field>
       </fields>
       <parameters>
-        <name>Предлог</name>
+        <name>ПредлогСвязка</name>
         <title>
           <localValue>
             <content>
               <key>ru</key>
-              <value>Предлог</value>
+              <value>Предлог связка</value>
             </content>
           </localValue>
         </title>
@@ -739,11 +739,10 @@
           <types>String</types>
           <stringQualifiers>
             <length>10</length>
+            <fixed>true</fixed>
           </stringQualifiers>
         </valueType>
-        <values xsi:type="core:StringValue">
-          <value></value>
-        </values>
+        <useRestriction>true</useRestriction>
         <expression>&quot; за &quot;</expression>
       </parameters>
     </extInfo>
